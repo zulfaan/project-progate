@@ -1,0 +1,34 @@
+@media (max-width:800px){
+    div div.mc-product{
+        width: 45%;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+    }
+    div div.card-groom.left, div div.card-groom.right{
+        flex-direction: column;
+        width: 80%;
+    }
+    div div.imagebody{
+        width: 100%;
+    }
+    div div.textbody.ltext, div div.textbody.rtext{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    div div.textbody p.p-body{
+        padding: 0 2rem 2rem 2rem;
+    }
+}
+@media (max-width:550px){
+    div div.mc-product{
+        width: 100%;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+    }
+    div div.textbody p.p-body{
+        margin-top: 0.5rem;
+        line-height: 1;
+    }
+}
