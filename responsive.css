@@ -4,6 +4,26 @@
         margin-top: 0.2rem;
         margin-bottom: 0.2rem;
     }
+    div.mini-carousel h2, div.mini-carousel div.card{
+        width: 100%;
+    }
+    div.mini-carousel h2{
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+    div.mini-carousel div.mc-card{
+        width: 40%;
+        flex-direction: column;
+        text-align: center;
+    }
+    div.mini-carousel div.mc-card p{
+        padding-left: 0;
+        width: 100%;
+    }
+    div.mini-container div.mini-carousel{
+        border-top: none;
+        border-bottom: none;
+    }
     div div.card-groom.left, div div.card-groom.right{
         flex-direction: column;
         width: 80%;
@@ -37,11 +57,17 @@
         margin-top: 0.2rem;
         margin-bottom: 0.2rem;
     }
+    div.groom h2{
+        padding: 0 1rem;
+    }
     div div.textbody p.p-body{
         margin-top: 0.5rem;
         line-height: 1;
     }
     div.carousel-care div.img-care,div.carousel-care div.txt-care{
         width: 80%;
+    }
+    div.mini-carousel div.mc-card p{
+        display: none;
     }
 }
