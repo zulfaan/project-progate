@@ -20,6 +20,16 @@
     div div.textbody p.p-body{
         padding: 0 2rem 2rem 2rem;
     }
+    div.container div.carousel-care{
+        padding-left: 0;
+        padding-right: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    div.carousel-care div.txt-care{
+        margin-top: 1rem;
+    }
 }
 @media (max-width:550px){
     div div.mc-product{
@@ -30,5 +40,8 @@
     div div.textbody p.p-body{
         margin-top: 0.5rem;
         line-height: 1;
+    }
+    div.carousel-care div.img-care,div.carousel-care div.txt-care{
+        width: 80%;
     }
 }

@@ -47,7 +47,7 @@ img.off-display{
     cursor: pointer;
 }
 img.off-display:hover{
-    visibility: hidden;
+    opacity: 0;
 }
 div.text-product{
     padding-bottom: 3rem;
@@ -71,10 +71,15 @@ div.text-product p.detail-product, div.text-product h3.title-product{
     width: 120px;
     border-radius: 8PX;
 }
-div a.buy{
+div a.buy, div a.care{
     text-align: center;
     background-color: #004AAD;
     color: #F19820;
+    transition: all 0.3s ease-in-out;
+}
+div a.buy:hover{
+    background-color: #F19820;
+    color: #004AAD;
 }
 div a.buy span.text-btn{
     font-size: 15px;
@@ -126,4 +131,25 @@ div div.textbody.ltext{
 }
 div div.textbody.rtext{
     padding-right: 5rem;
+}
+div.container div.carousel-care{
+    padding: 5rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+div.carousel-care div.img-care,div.carousel-care div.txt-care{
+    width: 50%;
+}
+div.carousel-care div.img-care img{
+    width: 100%;
+}
+div.carousel-care div.txt-care p{
+    padding-bottom: 5rem;
+}
+div a.care:hover{
+    background-color: #F19820;
+    color: #004AAD;   
 }
